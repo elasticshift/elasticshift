@@ -15,10 +15,13 @@
 Elasticshift is a redefined build and deployment system that performs CI and CD efficiently in scale.
 
 ## What does this project do?
-*The core idea of this project is to make universal ci and cd.*
+The core idea of this project is to make ci and cd universal.
+Write once run anywhere. 
+The format of the build/deployment script shall be created a commonplace in the cloud and shared across team/organization/users.
 
 ## Why is this project useful?
-Standadizing the build and no more rewriting build scripts, it has it's own format for better sharing and collaboration. ![Shiftfile](http://github.com/elasticshift/shiftfile)*
+#### Small companies can run build/deployment process like big giants.
+Standadizing the build and no more rewriting build scripts, it has it's own format for better sharing and collaboration. [Shiftfile](http://github.com/elasticshift/shiftfile)
 
 ## How do I get started?
 
