@@ -2,7 +2,9 @@ module github.com/elasticshift/elasticshift
 
 require (
 	cloud.google.com/go v0.34.0 // indirect
+	github.com/99designs/gqlgen v0.7.1
 	github.com/Microsoft/go-winio v0.4.11
+	github.com/agnivade/levenshtein v1.0.1 // indirect
 	github.com/coreos/go-oidc v0.0.0-20181101194249-66476e026701
 	github.com/davecgh/go-spew v1.1.1
 	github.com/docker/distribution v2.7.0+incompatible
@@ -29,6 +31,7 @@ require (
 	github.com/graphql-go/graphql v0.7.7
 	github.com/graphql-go/handler v0.2.3
 	github.com/gregjones/httpcache v0.0.0-20181110185634-c63ab54fda8f
+	github.com/hashicorp/golang-lru v0.5.0 // indirect
 	github.com/imdario/mergo v0.3.6
 	github.com/json-iterator/go v1.1.5
 	github.com/justinas/alice v0.0.0-20171023064455-03f45bd4b7da
@@ -52,6 +55,8 @@ require (
 	github.com/spf13/pflag v1.0.3
 	github.com/stretchr/testify v1.3.0
 	github.com/ulikunitz/xz v0.5.5
+	github.com/urfave/cli v1.20.0 // indirect
+	github.com/vektah/gqlparser v1.0.0 // indirect
 	github.com/xi2/xz v0.0.0-20171230120015-48954b6210f8 // indirect
 	golang.org/x/crypto v0.0.0-20190103213133-ff983b9c42bc
 	golang.org/x/lint v0.0.0-20181217174547-8f45f776aaf1 // indirect

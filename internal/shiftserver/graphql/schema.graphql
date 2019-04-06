@@ -1,0 +1,21 @@
+scalar Datetime
+
+interface BaseType {
+    id:           ID!
+    createdAt:    DateTime!
+    updatedAt:    DateTime!
+    deletedAt:    DateTime
+}
+
+type Team implements BaseType {
+    id:           ID!
+    createdAt:    DateTime!
+    updatedAt:    DateTime!
+    deletedAt:    DateTime 
+
+    name: String!
+    display: String
+}
+
+
+

@@ -1,0 +1,22 @@
+# .gqlgen.yml example
+#
+# Refer to https://gqlgen.com/config/
+# for detailed .gqlgen.yml documentation.
+
+schema:
+- schema.graphql
+- mutation.graphql
+- query.graphql
+- subscription.graphql
+exec:
+  filename: generated.go
+model:
+  filename: types/types.go
+  package: types
+resolver:
+  filename: resolver.go
+  type: Resolver
+struct_tag: json
+models:
+  Team:
+    model: github.com/elasticshift/elasticshift/internal/shiftserver/graphql/types/models.Team

@@ -1,0 +1,77 @@
+type Query {
+    ContainerEngine(
+    limit: Int
+    offset: Int
+    id: String
+    team: String!): ContainerEngineList
+
+    GenericSysConf(name: String!): GenericSysconf
+
+    NFSVolumeSysConf(name: String!): NFSSysconf
+
+    Secret(
+    limit: Int
+    offset: Int
+    team_id: String!): SecretList
+    Storage(
+    limit: Int
+    offset: Int
+    id: String
+    team: String!): StorageList
+
+    VCSSysConf(name: String): VCSSysconf
+
+    build(
+    id: String
+    branch: String
+    limit: Int
+    offset: Int
+    status: BuildStatus
+    team: String!
+    repository_id: String!): BuildList
+
+    container(
+    limit: Int
+    offset: Int
+    id: String!
+    team: String!
+    build_id: String!
+    status: ContainerStatus): ContainerList
+
+    default(
+    team: String
+    id: String
+    kind: DefaultKind
+    reference_id: String!): Default
+
+    infrastructure(
+    limit: Int
+    offset: Int
+    id: String!
+    team: String!): InfrastructureList
+
+    plugin(
+    team: String!
+    name: String
+    limit: Int
+    offset: Int): PluginList
+
+    repository(
+    limit: Int
+    offset: Int
+    team: String!
+    vcs_id: String): RepositoryList
+
+    shiftfile(
+    limit: Int
+    offset: Int
+    name: String): ShiftfileList
+
+    team(id: Stringname: String): Team
+
+    vcs(
+    limit: Int
+    offset: Int
+    team: String!): VCSList
+}
+

@@ -1,0 +1,61 @@
+type Mutation {
+    addContainerEngine(
+    team: String!
+    name: String!
+    kind: ContainerEngineKind!
+    provider: Provider!
+    host: String!
+    certificate: String!
+    token: String!): ContainerEngine
+
+    addInfrastructure(
+    private: Boolean
+    code: String!
+    team: String!
+    name: String!
+    description: String!
+    kind: String!): Infrastructure
+
+    addRepository(uri: String!team: String!): Repository
+    
+    addSecret(
+    kind: Kind!
+    reference_kind: ReferenceKind!
+    reference_id: String!
+    value: String!
+    team_id: String!
+    name: String!): Secret
+    addShiftfile(
+    name: String!
+    description: String
+    file: String!
+    team_id: String!): Shiftfile
+
+    addStorage(storage: StorageInput): Storage
+
+    cancelBuild(id: String!): String
+
+    createGenericSysConf(name: String!value: String!): GenericSysconf
+
+    createNFSVolumeSysConf(
+    name: String!
+    server: String!
+    accessmode: AccessMode!): NFSSysconf
+
+    createTeam(name: String!): Team
+
+    createVCSSysConf(
+    name: String!
+    key: String!
+    secret: String!
+    callbackURL: String!): VCSSysconf
+
+    setDefaults(
+    reference_id: String!
+    kind: DefaultKind!
+    container_engine_id: String
+    storage_id: String
+    languages: String): Default
+
+    triggerBuild(repository_id: String!branch: String): Build
+}
