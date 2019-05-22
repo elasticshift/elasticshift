@@ -21,7 +21,7 @@ The format of the build/deployment script shall be created a commonplace in the 
 
 ## Why is this project useful?
 #### Small companies can run build/deployment process like big giants.
-Standadizing the build and no more rewriting build scripts, it has it's own format for better sharing and collaboration. [Shiftfile](http://github.com/elasticshift/shiftfile)
+Standadizing the build and no more rewriting build scripts, it has it's own format for better sharing and collaboration. [Shiftfile](http://github.com/elasticshift/shiftfile) is the format of build/deployment configuration.
 
 ## How do I get started?
 
