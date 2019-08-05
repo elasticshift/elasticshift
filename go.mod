@@ -35,7 +35,7 @@ require (
 	github.com/konsorten/go-windows-terminal-sequences v1.0.1
 	github.com/mholt/archiver v3.1.1+incompatible
 	github.com/minio/minio-go v6.0.12+incompatible
-	github.com/mitchellh/go-homedir v1.0.0
+	github.com/mitchellh/go-homedir v1.1.0
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd
 	github.com/modern-go/reflect2 v1.0.1
 	github.com/nsqio/go-nsq v1.0.7
