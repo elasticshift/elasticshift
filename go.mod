@@ -5,7 +5,7 @@ require (
 	github.com/Microsoft/go-winio v0.4.11
 	github.com/coreos/go-oidc v0.0.0-20181101194249-66476e026701
 	github.com/davecgh/go-spew v1.1.1
-	github.com/docker/distribution v2.7.0+incompatible
+	github.com/docker/distribution v2.7.1+incompatible
 	github.com/docker/docker v1.13.1
 	github.com/docker/go-connections v0.4.0
 	github.com/docker/go-units v0.3.3
