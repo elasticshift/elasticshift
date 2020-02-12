@@ -24,7 +24,7 @@ require (
 	github.com/googleapis/gnostic v0.2.0
 	github.com/gorilla/context v1.1.1
 	github.com/gorilla/handlers v1.4.0
-	github.com/gorilla/mux v1.6.2
+	github.com/gorilla/mux v1.7.4
 	github.com/gorilla/websocket v1.4.0
 	github.com/graphql-go/graphql v0.7.7
 	github.com/graphql-go/handler v0.2.3
