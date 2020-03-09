@@ -12,7 +12,7 @@ require (
 	github.com/dsnet/compress v0.0.0-20171208185109-cc9eb1d7ad76
 	github.com/dustin/go-humanize v1.0.0
 	github.com/elasticshift/shiftfile v1.0.0
-	github.com/go-ini/ini v1.41.0
+	github.com/go-ini/ini v1.54.0
 	github.com/gogo/protobuf v1.2.0
 	github.com/golang/glog v0.0.0-20160126235308-23def4e6c14b
 	github.com/golang/lint v0.0.0-20181217174547-8f45f776aaf1 // indirect
