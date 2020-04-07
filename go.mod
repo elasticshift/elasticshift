@@ -64,7 +64,7 @@ require (
 	golang.org/x/tools v0.0.0-20190110015856-aa033095749b // indirect
 	google.golang.org/appengine v1.4.0
 	google.golang.org/genproto v0.0.0-20190108161440-ae2f86662275 // indirect
-	google.golang.org/grpc v1.17.0
+	google.golang.org/grpc v1.28.1
 	gopkg.in/check.v1 v1.0.0-20180628173108-788fd7840127 // indirect
 	gopkg.in/inf.v0 v0.9.1
 	gopkg.in/mgo.v2 v2.0.0-20180705113604-9856a29383ce
