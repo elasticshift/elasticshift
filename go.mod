@@ -32,7 +32,7 @@ require (
 	github.com/imdario/mergo v0.3.6
 	github.com/json-iterator/go v1.1.5
 	github.com/justinas/alice v0.0.0-20171023064455-03f45bd4b7da
-	github.com/konsorten/go-windows-terminal-sequences v1.0.1
+	github.com/konsorten/go-windows-terminal-sequences v1.0.3
 	github.com/mholt/archiver v3.1.1+incompatible
 	github.com/minio/minio-go v6.0.12+incompatible
 	github.com/mitchellh/go-homedir v1.0.0
