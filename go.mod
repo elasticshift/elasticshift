@@ -23,7 +23,7 @@ require (
 	github.com/google/gofuzz v0.0.0-20170612174753-24818f796faf
 	github.com/googleapis/gnostic v0.2.0
 	github.com/gorilla/context v1.1.1
-	github.com/gorilla/handlers v1.4.0
+	github.com/gorilla/handlers v1.5.0
 	github.com/gorilla/mux v1.6.2
 	github.com/gorilla/websocket v1.4.0
 	github.com/graphql-go/graphql v0.7.7
